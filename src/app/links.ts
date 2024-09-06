@@ -1,11 +1,10 @@
 export const skills = [
   "EOS",
-  "LightFactory",
-  "LXFree",
-  "Companion",
+  "Vectorworks Spotlight",
   "QLab 5",
+  "LightFactory",
   "Show Cue System",
-  "MultiPlay",
+  "Companion",
 ];
 
 export const socials: { name: string; href: string }[] = [
