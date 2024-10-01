@@ -41,10 +41,9 @@ export default function Home() {
           <small className="text-sm">
             <Link
               href="/shows"
-              target="_blank"
               className="ml-2 inline-flex items-center gap-1 font-medium underline duration-150 hover:text-primary"
             >
-              View all <ExternalLink size={16} />
+              View all
             </Link>
           </small>
         </h2>
