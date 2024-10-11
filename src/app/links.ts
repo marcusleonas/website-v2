@@ -17,6 +17,10 @@ export const socials: { name: string; href: string }[] = [
     href: "https://instagram.com/marcusleonas_public",
   },
   {
+    name: "Telegram",
+    href: "https://t.me/marcusleonas",
+  },
+  {
     name: "LinkedIn",
     href: "https://www.linkedin.com/in/marcusleonas",
   },
