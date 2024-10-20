@@ -42,6 +42,7 @@ export default function Home() {
             <Link
               href="/shows"
               className="ml-2 inline-flex items-center gap-1 font-medium underline duration-150 hover:text-primary"
+              prefetch={true}
             >
               View all
             </Link>
@@ -53,6 +54,7 @@ export default function Home() {
               <Link
                 href={show.slug}
                 className="group flex w-full flex-col items-center justify-between p-1 hover:bg-muted md:flex-row md:hover:bg-transparent"
+                prefetch={true}
               >
                 <div className="flex flex-col items-center gap-1 md:flex-row">
                   <h3 className="text-base duration-150 group-hover:text-primary">
