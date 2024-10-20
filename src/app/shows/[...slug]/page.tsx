@@ -3,6 +3,7 @@ import { allDocuments } from "contentlayer/generated";
 import { ChevronLeft } from "lucide-react";
 import Link from "next/link";
 import { notFound } from "next/navigation";
+import { BackButton } from "./BackButton";
 
 interface ShowPageProps {
   params: {
@@ -31,12 +32,7 @@ export default async function ShowPage({ params }: ShowPageProps) {
   return (
     <main className="w-full space-y-4 px-4 py-8 md:mx-auto md:max-w-screen-sm">
       <div className="space-y-1">
-        <Link
-          href="/shows"
-          className="inline-flex items-center gap-1 font-medium underline duration-150 hover:text-primary"
-        >
-          <ChevronLeft size={16} /> Go Back
-        </Link>
+        <BackButton />
         <h1 className="text-4xl font-semibold">
           {doc.title}{" "}
           <span className="text-base font-normal">
