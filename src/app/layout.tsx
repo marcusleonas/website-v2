@@ -28,6 +28,10 @@ export default function RootLayout({
           <Oneko />
           {children}
           <ThemeToggle />
+          <footer className="fixed bottom-0 left-0 right-0 flex flex-col items-center justify-center p-4 text-sm text-muted-foreground">
+            <p>&copy; 2024 Marcus Leonas Harvey</p>
+            <p>Website built by me using NextJS & ContentLayer.</p>
+          </footer>
         </ThemeProvider>
       </body>
     </html>
