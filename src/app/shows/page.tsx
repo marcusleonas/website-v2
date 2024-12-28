@@ -22,6 +22,7 @@ export default function ShowsPage() {
             <li key={show.slug}>
               <Link
                 href={show.slug}
+                prefetch={true}
                 className="group flex w-full flex-col items-center justify-between p-1 hover:bg-muted md:flex-row md:hover:bg-transparent"
               >
                 <div className="flex flex-col items-center gap-1 md:flex-row">
