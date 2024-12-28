@@ -9,8 +9,8 @@ export const skills = [
 
 export const socials: { name: string; href: string }[] = [
   {
-    name: "Twitter",
-    href: "https://twitter.com/flvffywvffy",
+    name: "Bluesky",
+    href: "https://bsky.app/profile/marcusleonasharvey.co.uk",
   },
   {
     name: "Instagram",
