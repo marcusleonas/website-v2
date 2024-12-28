@@ -97,12 +97,9 @@ const components = {
     ...props
   }: React.ImgHTMLAttributes<HTMLImageElement>) => (
     // eslint-disable-next-line @next/next/no-img-element
-    <Image
+    <img
       className={cn("rounded-md border", className)}
       alt={alt ?? "image"}
-      width={960}
-      height={540}
-      loading="eager"
       {...props}
     />
   ),
