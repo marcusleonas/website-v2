@@ -10,12 +10,12 @@ export default function ShowsPage() {
   return (
     <main className="w-full space-y-8 px-4 py-8 md:mx-auto md:max-w-screen-sm">
       <section>
-        <a
+        <Link
           href="/"
           className="inline-flex items-center gap-1 font-medium underline duration-150 hover:text-primary"
         >
           <ChevronLeft size={16} /> Back Home
-        </a>
+        </Link>
         <h1 className="text-4xl font-semibold">All Shows</h1>
         <ul className="flex flex-col gap-1 pt-2">
           {shows.map((show) => (
